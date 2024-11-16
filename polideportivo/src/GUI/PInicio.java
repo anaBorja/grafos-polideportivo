@@ -66,9 +66,9 @@ public class PInicio extends javax.swing.JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        ImageIcon imagen = new ImageIcon(".//res/GrafoGimnasio.jpg");
+        ImageIcon imagen = new ImageIcon("polideportivo/res/GrafoGimnasio.jpg");
         g.drawImage(imagen.getImage(), 0, 0, imagen.getImage().getWidth(null), imagen.getImage().getHeight(null)+45, null);
-       // g.drawImage(imagen.getImage(), 0, 0, null);
+        //g.drawImage(imagen.getImage(), 0, 0, null);
         this.revalidate();
     }
 
